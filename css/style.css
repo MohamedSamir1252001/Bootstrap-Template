@@ -148,6 +148,7 @@ nav{
     background-color:var(--white-color) ;
     box-shadow: 0 0 10px var(--shadow-color) ;
     position: relative;
+    
 }
 .navbar .navbar-brand{
     color: var(--main-color);
@@ -792,6 +793,10 @@ nav{
     .events .subscribe{
         width: 50%;
     }
+    .events .dots1 ,
+    .events .dots2{
+        z-index: -1;
+    }
 }
 @media(max-width : 991px){
     .events .subscribe{
@@ -802,6 +807,10 @@ nav{
     .events .subscribe .subscribe-btn{
         width: 75%;
         margin-top: 10px;
+    }
+    .events .dots1 ,
+    .events .dots2{
+        display: none;
     }
 }
 /* end events section */
